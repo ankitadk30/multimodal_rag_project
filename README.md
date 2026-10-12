@@ -28,6 +28,10 @@ retrieved, and supplied to a large language model to produce grounded answers.
 6. Send the question and retrieved context to a language model.
 7. Return a grounded answer through the application interface.
 
+## Using
+- Vector DB: QDRANT(free cluster)
+- LLM: OpenAI
+
 ## Prerequisites
 
 Before setting up the project, install:

@@ -1,0 +1,14 @@
+{"pdf_path": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\parsed_pdf_output", "timestamp": "2026-10-12T08:09:53.303455Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://dbbad62f-6da2-47e2-bdbf-d50d43325f7b.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-system/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://dbbad62f-6da2-47e2-bdbf-d50d43325f7b.us-east-1-1.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+{"pdf_path": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\parsed_pdf_output", "timestamp": "2026-10-12T08:11:17.415625Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://dbbad62f-6da2-47e2-bdbf-d50d43325f7b.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-system/exists "HTTP/1.1 200 OK"
+{"pdf_path": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-10-12T08:11:33.063236Z", "level": "info", "event": "pdf_parser_initialized"}
+{"pdf_path": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-10-12T08:11:33.063685Z", "level": "info", "event": "pdf_parsing_started"}
+{"pages": 24, "images": 13, "timestamp": "2026-10-12T08:11:53.537813Z", "level": "info", "event": "pdf_content_extracted"}
+{"tables": 16, "timestamp": "2026-10-12T08:11:55.252132Z", "level": "info", "event": "pdf_tables_extracted"}
+{"documents": 53, "timestamp": "2026-10-12T08:11:55.253235Z", "level": "info", "event": "langchain_documents_created"}
+{"output_dir": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-10-12T08:11:55.277300Z", "level": "info", "event": "parser_outputs_saved"}
+{"pdf_path": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-10-12T08:11:55.280060Z", "level": "info", "event": "pdf_parsing_completed"}
+HTTP Request: GET https://dbbad62f-6da2-47e2-bdbf-d50d43325f7b.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-system/exists "HTTP/1.1 200 OK"
+{"error": "OPENAI_API_KEY is missing", "exc_info": true, "timestamp": "2026-10-12T08:12:07.278558Z", "level": "error", "event": "ingestion_initialization_failed"}

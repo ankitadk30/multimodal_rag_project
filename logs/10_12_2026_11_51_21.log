@@ -1,0 +1,2 @@
+HTTP Request: GET https://dbbad62f-6da2-47e2-bdbf-d50d43325f7b.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-system/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://dbbad62f-6da2-47e2-bdbf-d50d43325f7b.us-east-1-1.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"

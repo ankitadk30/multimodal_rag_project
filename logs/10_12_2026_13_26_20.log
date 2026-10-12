@@ -1,0 +1,1 @@
+{"pdf_path": "D:\\projects\\KN_projects\\multimodal_rag_project\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "error": "Tesseract executable not found at: C:\\Program Files\\Tesseract-OCR\\tesseract.exe", "exc_info": true, "timestamp": "2026-10-12T07:56:20.304314Z", "level": "error", "event": "pdf_parser_initialization_failed"}
